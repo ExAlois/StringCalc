@@ -1,58 +1,80 @@
 package com.strincalc;
 
-import java.util.Arrays;
-
 public class StringCalc {
-    //private block
+
     private static final String TERMINATIOR = ",";
 
-    private int isNum(String str) {
-       try {
-           return  Integer.parseInt(str);
-       }
-       catch (Exception e) {
-           System.out.println(Arrays.toString(e.getStackTrace()));
-           return 0;
-       }
+    //public block
+    public int getSum(int numA, int numB) {
+        return numA + numB;
     }
 
-    public int getNumFromString(String input){
+    //get sum of digest from string between separator
+    public int add(String inputs) {
+        String[] arrayWithNumbers = inputs.split(TERMINATIOR);
+        int[] digitFromString = new int[arrayWithNumbers.length];
+
+        for (int i = 0; i < arrayWithNumbers.length; i++) {
+            digitFromString[i] = getNumberFromAnyString(arrayWithNumbers[i]);
+        }
+
+        if (inputs.isEmpty()) {
+            return 0;
+        }
+        else if (digitFromString.length == 1) {
+            return digitFromString[0];
+        } else {
+            int sum = 0;
+            for (int i : digitFromString) {
+                sum += i;
+            }
+            return sum;
+        }
+    }
+
+    //Get number from of all digits from any string in any places in sequence. exp: "2input2string2" will return 222
+    public int getNumberFromAnyString(String input){
 
         if (input.isEmpty()) {
             return 0;
         }
         else {
-            int num  = 0;
+            String digest = "";
             for (int i = 0; i < input.length();i++) {
                 if (Character.isDigit(input.charAt(i)))
                 {
-                    num += Character.getNumericValue(input.charAt(i));
+                    digest += Character.getNumericValue(input.charAt(i));
                 }
             }
-            return num;
+            return toIntOrZero(digest);
         }
     }
 
-    //public block
-
-    public int getSum(int numA, int numB) {
-        return numA + numB;
-    }
-
-    public int add(String inputs) {
-        String numbers[] = inputs.split(TERMINATIOR);
-
-        if (inputs.isEmpty()) {
+    //Get sum of all digits in input string in any places. exp: "2input2string2" will return 6
+    public int getSumAllDigitsInAnyString(String input) {
+        if (input.isEmpty()) {
             return 0;
         }
-        else if (numbers.length == 1) {
-            return isNum(numbers[0]);
-        } else {
-            int sum = 0;
-            for (int i = 0; i < numbers.length; i++) {
-                sum = getSum(sum, isNum(numbers[i]));
+        else
+        {
+            int sumOfDigest = 0;
+            for (int i = 0; i < input.length();i++) {
+                if (Character.isDigit(input.charAt(i)))
+                {
+                    sumOfDigest += Character.getNumericValue(input.charAt(i));
+                }
             }
-            return sum;
+            return sumOfDigest;
         }
+    }
+
+    //private block
+    private int toIntOrZero(String str) {
+       try {
+           return  Integer.parseInt(str);
+       } catch (Exception e) {
+           e.printStackTrace();
+           return 0;
+       }
     }
 }
