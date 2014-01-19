@@ -2,16 +2,23 @@ package com.strincalc;
 
 public class StringCalc {
 
-    private static final String TERMINATIOR = ",";
+    private static String delimitrer = ",";
 
     //public block
-    public int getSum(int numA, int numB) {
-        return numA + numB;
+    public static void setDelimitrer(String delimitrer) {
+        StringCalc.delimitrer = delimitrer;
+    }
+
+    public static String getDelimitrer() {
+        return delimitrer;
     }
 
     //get sum of digest from string between separator
-    public int add(String inputs) {
-        String[] arrayWithNumbers = inputs.split(TERMINATIOR);
+    public int add(String inputs, String delim) {
+        if (delim != null) {
+            setDelimitrer(delim);
+        }
+        String[] arrayWithNumbers = inputs.split(delimitrer);
         int[] digitFromString = new int[arrayWithNumbers.length];
 
         for (int i = 0; i < arrayWithNumbers.length; i++) {
@@ -71,8 +78,11 @@ public class StringCalc {
     //private block
     private int toIntOrZero(String str) {
        try {
+           if (Integer.parseInt(str) < 0) {
+               throw new NegativeIntException();
+           }
            return  Integer.parseInt(str);
-       } catch (Exception e) {
+       } catch (NegativeIntException e) {
            e.printStackTrace();
            return 0;
        }

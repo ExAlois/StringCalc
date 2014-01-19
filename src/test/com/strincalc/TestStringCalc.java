@@ -19,14 +19,8 @@ public class TestStringCalc {
     }
 
     @Test
-    public void testGetSum() throws Exception {
-        assertEquals(5,testStringCalc.getSum(2,3));
-    }
-
-    @Test
     public void testAdd() throws Exception {
-        assertEquals(6,testStringCalc.add("test1,2test,te3st"));
-        //assertEquals(3,testStringCalc.add("//;\n1,2"));
+        assertEquals(6, testStringCalc.add("test1,test-2,te3st", ","));
     }
 
     @Test
