@@ -20,7 +20,7 @@ public class TestStringCalc {
 
     @Test
     public void testAdd() throws Exception {
-        assertEquals(6, testStringCalc.add("test1,test-2,te3st", ","));
+        assertEquals(6, testStringCalc.add("test1,test-2,te3st", ""));
     }
 
     @Test

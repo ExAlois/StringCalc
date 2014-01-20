@@ -2,23 +2,22 @@ package com.strincalc;
 
 public class StringCalc {
 
-    private static String delimitrer = ",";
+    private static final String DEFAULT_DELIMITER = ",";
 
     //public block
-    public static void setDelimitrer(String delimitrer) {
-        StringCalc.delimitrer = delimitrer;
-    }
-
-    public static String getDelimitrer() {
-        return delimitrer;
-    }
 
     //get sum of digest from string between separator
+    public int add(String str) {
+        return add(str, DEFAULT_DELIMITER);
+    }
+
+     //get sum of digest from string between separator
     public int add(String inputs, String delim) {
-        if (delim != null) {
-            setDelimitrer(delim);
+        if (delim == null || delim == "") {
+            delim = DEFAULT_DELIMITER;
         }
-        String[] arrayWithNumbers = inputs.split(delimitrer);
+
+        String[] arrayWithNumbers = inputs.split(delim);
         int[] digitFromString = new int[arrayWithNumbers.length];
 
         for (int i = 0; i < arrayWithNumbers.length; i++) {
@@ -46,14 +45,16 @@ public class StringCalc {
             return 0;
         }
         else {
-            String digest = "";
+            String buff = "";
+            int digit = 0;
             for (int i = 0; i < input.length();i++) {
                 if (Character.isDigit(input.charAt(i)))
                 {
-                    digest += Character.getNumericValue(input.charAt(i));
+                    buff += Character.getNumericValue(input.charAt(i));
+                    digit = toIntOrZero(buff);
                 }
             }
-            return toIntOrZero(digest);
+            return digit;
         }
     }
 
@@ -75,16 +76,30 @@ public class StringCalc {
         }
     }
 
+    public static String getDEFAULT_DELIMITER() {
+        return DEFAULT_DELIMITER;
+    }
+
     //private block
     private int toIntOrZero(String str) {
-       try {
-           if (Integer.parseInt(str) < 0) {
-               throw new NegativeIntException();
-           }
-           return  Integer.parseInt(str);
-       } catch (NegativeIntException e) {
-           e.printStackTrace();
-           return 0;
-       }
+        int num = 0;
+        try {
+            num = Integer.parseInt(str);
+            if (num < 0) {
+               throw new NegativeIntException(str);
+            }
+            else if (num >= 1000) {
+               while (num >= 1000) {
+                   num -= 1000;
+               }
+               return num;
+            }
+            else {
+                return  num;
+            }
+        } catch (NegativeIntException e) {
+            e.printStackTrace();
+            return 0;
+        }
     }
 }
