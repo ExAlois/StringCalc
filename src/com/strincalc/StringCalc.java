@@ -26,8 +26,7 @@ public class StringCalc {
 
         if (inputs.isEmpty()) {
             return 0;
-        }
-        else if (digitFromString.length == 1) {
+        } else if (digitFromString.length == 1) {
             return digitFromString[0];
         } else {
             int sum = 0;
@@ -43,8 +42,7 @@ public class StringCalc {
 
         if (input.isEmpty()) {
             return 0;
-        }
-        else {
+        } else {
             String buff = "";
             int digit = 0;
             for (int i = 0; i < input.length();i++) {
@@ -62,9 +60,7 @@ public class StringCalc {
     public int getSumAllDigitsInAnyString(String input) {
         if (input.isEmpty()) {
             return 0;
-        }
-        else
-        {
+        } else {
             int sumOfDigest = 0;
             for (int i = 0; i < input.length();i++) {
                 if (Character.isDigit(input.charAt(i)))
@@ -87,14 +83,12 @@ public class StringCalc {
             num = Integer.parseInt(str);
             if (num < 0) {
                throw new NegativeIntException(str);
-            }
-            else if (num >= 1000) {
+            } else if (num >= 1000) {
                while (num >= 1000) {
                    num -= 1000;
                }
                return num;
-            }
-            else {
+            } else {
                 return  num;
             }
         } catch (NegativeIntException e) {
