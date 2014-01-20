@@ -7,15 +7,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class TestStringCalc {
-    StringCalc testStringCalc;
+    private StringCalc testStringCalc;
     @Before
     public void setUp() throws Exception {
         testStringCalc = new StringCalc();
-    }
-
-    @After
-    public void tearDown() throws Exception {
-
     }
 
     @Test

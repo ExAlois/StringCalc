@@ -13,7 +13,7 @@ public class StringCalc {
 
      //get sum of digest from string between separator
     public int add(String inputs, String delim) {
-        if (delim == null || delim == "") {
+        if (delim == null || delim.equals("")) {
             delim = DEFAULT_DELIMITER;
         }
 
@@ -82,7 +82,7 @@ public class StringCalc {
 
     //private block
     private int toIntOrZero(String str) {
-        int num = 0;
+        int num;
         try {
             num = Integer.parseInt(str);
             if (num < 0) {

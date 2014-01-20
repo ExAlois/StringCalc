@@ -4,11 +4,11 @@
     <list default="true" id="7f9942e7-5998-4962-9ef1-89fab676187b" name="Default" comment="" />
     <ignored path="StringCalc.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/StringCalc.java" changelist="7f9942e7-5998-4962-9ef1-89fab676187b" time="1390228228379" ignored="false" />
+    <file path="/StringCalc.java" changelist="7f9942e7-5998-4962-9ef1-89fab676187b" time="1390239677091" ignored="false" />
     <file path="/Main.java" changelist="7f9942e7-5998-4962-9ef1-89fab676187b" time="1390221282252" ignored="false" />
     <file path="/fragment.java" changelist="7f9942e7-5998-4962-9ef1-89fab676187b" time="1390127681958" ignored="false" />
     <file path="/Test.java" changelist="7f9942e7-5998-4962-9ef1-89fab676187b" time="1390122978785" ignored="false" />
-    <file path="/TestStringCalc.java" changelist="7f9942e7-5998-4962-9ef1-89fab676187b" time="1390166037858" ignored="false" />
+    <file path="/TestStringCalc.java" changelist="7f9942e7-5998-4962-9ef1-89fab676187b" time="1390239817469" ignored="false" />
     <file path="/Dummy.txt" changelist="7f9942e7-5998-4962-9ef1-89fab676187b" time="1390124447031" ignored="false" />
     <file path="/a.dummy" changelist="7f9942e7-5998-4962-9ef1-89fab676187b" time="1390221585136" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/com/strincalc/StringCalcTest.java" changelist="7f9942e7-5998-4962-9ef1-89fab676187b" time="1390127699918" ignored="false" />
@@ -78,19 +78,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/strincalc/Main.java">
+      <file leaf-file-name="StringCalc.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/strincalc/StringCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.13621795">
+            <state line="101" column="112" selection-start="2890" selection-end="2890" vertical-scroll-proportion="0.6692607">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringCalc.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/strincalc/StringCalc.java">
+      <file leaf-file-name="TestStringCalc.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/strincalc/TestStringCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="30" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestStringCalc.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/strincalc/TestStringCalc.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/strincalc/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="66" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+            <state line="4" column="23" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,10 +127,10 @@
         <option value="$PROJECT_DIR$/src/test/com/strincalc/Test.java" />
         <option value="$PROJECT_DIR$/src/test/com/strincalc/TestTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/strincalc/StringCalcTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/strincalc/TestStringCalc.java" />
         <option value="$PROJECT_DIR$/src/com/strincalc/NegativeIntException.java" />
-        <option value="$PROJECT_DIR$/src/com/strincalc/StringCalc.java" />
         <option value="$PROJECT_DIR$/src/com/strincalc/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/strincalc/StringCalc.java" />
+        <option value="$PROJECT_DIR$/src/test/com/strincalc/TestStringCalc.java" />
       </list>
     </option>
   </component>
@@ -169,6 +169,58 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StringCalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StringCalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StringCalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StringCalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StringCalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StringCalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StringCalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="strincalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="All">
           <PATH>
@@ -202,62 +254,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StringCalc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StringCalc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StringCalc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StringCalc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StringCalc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strincalc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StringCalc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StringCalc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strincalc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +282,7 @@
       <recent name="test.com.strincalc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestStringCalc">
     <configuration default="false" name="TestStringCalc" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="StringCalc" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -442,8 +438,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestStringCalc" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestStringCalc" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.All in StringCalc" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.TestStringCalc.testAdd" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.TestStringCalc.testGetSumAllNumbersInAnyString" />
@@ -483,6 +479,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10011123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -493,12 +490,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.106189966" sideWeight="0.72302556" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955604" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2769744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.106189966" sideWeight="0.6006674" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39933258" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2769744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10011123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
@@ -568,13 +564,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com/strincalc/TestStringCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="8" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/strincalc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -610,49 +599,49 @@
     </entry>
     <entry file="jar://E:/Programs/JDK/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="787" column="29" selection-start="31508" selection-end="31508" vertical-scroll-proportion="-0.017142856">
-          <folding />
-        </state>
+        <state line="787" column="29" selection-start="31508" selection-end="31508" vertical-scroll-proportion="-0.017142856" />
       </provider>
     </entry>
     <entry file="jar://E:/Programs/JDK/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="34" selection-start="946" selection-end="946" vertical-scroll-proportion="0.04114286">
-          <folding />
-        </state>
+        <state line="44" column="34" selection-start="946" selection-end="946" vertical-scroll-proportion="0.04114286" />
       </provider>
     </entry>
     <entry file="jar://E:/Programs/JDK/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1654" column="0" selection-start="69797" selection-end="69797" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="1654" column="0" selection-start="69797" selection-end="69797" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="jar://E:/Programs/JDK/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="48" selection-start="1840" selection-end="2139" vertical-scroll-proportion="-3.5625">
-          <folding />
-        </state>
+        <state line="82" column="48" selection-start="1840" selection-end="2139" vertical-scroll-proportion="-3.5625" />
       </provider>
     </entry>
     <entry file="jar://E:/Programs/JDK/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.7548077">
-          <folding />
-        </state>
+        <state line="64" column="0" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.7548077" />
       </provider>
     </entry>
     <entry file="jar://E:/Programs/JDK/src.zip!/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6409" column="22" selection-start="231720" selection-end="231720" vertical-scroll-proportion="0.33333334">
+        <state line="6409" column="22" selection-start="231720" selection-end="231720" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="jar://E:/Programs/JDK/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="1.9342948" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strincalc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/strincalc/TestStringCalc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="66" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -666,14 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/strincalc/StringCalc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strincalc/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.13621795">
+        <state line="101" column="112" selection-start="2890" selection-end="2890" vertical-scroll-proportion="0.6692607">
           <folding />
         </state>
       </provider>
